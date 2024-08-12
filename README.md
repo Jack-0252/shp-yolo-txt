@@ -15,10 +15,10 @@ pip install geopandas rasterio shapely numpy opencv-python tqdm
 将**main.py** 中下面的路径进行更改，运行即可。
 
 ```
-	tiff_path = 'path/to/your/tiff.tif'
-    shapefile_path = 'path/to/your/shapefile.shp'
-    output_dir = 'path/to/your/output_folder'
-    pixel_size = 800
+tiff_path = 'path/to/your/tiff.tif'
+shapefile_path = 'path/to/your/shapefile.shp'
+output_dir = 'path/to/your/output_folder'
+pixel_size = 800
 ```
 
 
