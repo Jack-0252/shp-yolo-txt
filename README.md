@@ -47,7 +47,7 @@ pixel_size = 800
 
 **shp_to_moreshp.py**:将在扩展后的shp文件中每一个框里的所有shapefiles里的小框单独生成一个shp文件至指定文件夹。举例来说对下面的图，shapefiles就是所有的红框，扩展后就变成所有的黄框，这一步就是将每个黄框中的所有红框（不管整个还是半个）生成一个shp文件，所以输出文件夹shp_folder中会有和黄框数量一致的子文件夹，内含各个的shp文件。
 
-![kuang](F:\google_download\picture\kuang.png)
+![image](https://github.com/user-attachments/assets/1d91766d-c963-43d1-aa16-b8a3eb0d1240)
 
 **shp_to_txt.py**：输入shp_folder, tif_folder, tfw_folder,输出txt_folder。旨在将shp文件转化为yolo的txt文件
 
